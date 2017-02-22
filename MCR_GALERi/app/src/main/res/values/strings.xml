@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MCR_GALERi</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_resim_secme">Resim_secme</string>
+    <string name="title_activity_kayit_bilgileri_girisi">Kayit_bilgileri_girisi</string>
+    <string name="title_activity_araba_ara">Araba_ara</string>
+    <string name="title_activity_showroom">Showroom</string>
+    <string name="title_activity_show_image">Show_image</string>
+    <string name="title_activity_kayit_bilgileri">Kayit_bilgileri</string>
+    <string name="title_activity_sifre_giris">Sifre_giris</string>
+    <string name="title_activity_yedekleme">Yedekleme</string>
+</resources>

@@ -1,0 +1,153 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.mcr.mcr_galeri.Araba_ara"
+    android:gravity="center_horizontal"
+    android:background="@drawable/arka_plan_2">
+
+    <TableRow android:gravity="center" android:layout_marginTop="10dp">
+        <FrameLayout android:layout_width="330dp">
+
+            <CheckBox
+                android:textSize="20dp"
+                android:text="Marka"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_border"
+                android:backgroundTint="#000"
+                android:id="@+id/checkBox_marka"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="left|center_vertical" />
+
+            <Spinner
+                android:background="@drawable/white_border"
+                android:backgroundTint="#000"
+                android:layout_width="220dp"
+                android:layout_height="50dp"
+                android:id="@+id/spinner_ara_marka"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:spinnerMode="dialog"
+                android:layout_gravity="right|center_vertical" />
+
+        </FrameLayout>
+    </TableRow>
+
+    <TableRow android:gravity="center" android:layout_marginTop="10dp">
+        <FrameLayout android:layout_width="330dp">
+
+            <CheckBox
+                android:textSize="20dp"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:text="Model"
+                android:background="@drawable/white_border"
+                android:backgroundTint="#000"
+                android:id="@+id/checkBox_model"
+                android:layout_below="@+id/checkBox_marka"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="left|center_vertical"/>
+
+            <Spinner
+                android:background="@drawable/white_border"
+                android:backgroundTint="#000"
+                android:layout_width="220dp"
+                android:layout_height="50dp"
+                android:id="@+id/spinner_ara_model"
+                android:layout_alignTop="@+id/checkBox_model"
+                android:layout_alignLeft="@+id/spinner_ara_marka"
+                android:layout_alignStart="@+id/spinner_ara_marka"
+                android:spinnerMode="dialog"
+                android:layout_gravity="right|center_vertical"/>
+
+        </FrameLayout>
+    </TableRow>
+
+    <TableRow android:gravity="center" android:layout_marginTop="10dp">
+        <FrameLayout android:layout_width="330dp" android:layout_height="85dp">
+
+            <CheckBox
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_border"
+                android:backgroundTint="#000"
+                android:textSize="20dp"
+                android:text="Fiyat"
+                android:id="@+id/checkBox_fiyat"
+                android:layout_below="@+id/checkBox_model"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="left|center_vertical" />
+
+            <EditText
+                android:gravity="center"
+                android:background="@drawable/white_border"
+                android:backgroundTint="#000"
+                android:layout_width="220dp"
+                android:layout_height="40dp"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/editText_ara_fiyat_max"
+                android:hint="Maksimum Fiyat"
+                android:layout_below="@+id/editText_ara_fiyat_min"
+                android:layout_alignRight="@+id/editText_ara_fiyat_min"
+                android:layout_alignEnd="@+id/editText_ara_fiyat_min"
+                android:layout_alignLeft="@+id/editText_ara_fiyat_min"
+                android:layout_alignStart="@+id/editText_ara_fiyat_min"
+                android:layout_gravity="right|bottom" />
+
+            <EditText
+                android:gravity="center"
+                android:background="@drawable/white_border"
+                android:backgroundTint="#000"
+                android:layout_width="220dp"
+                android:layout_height="40dp"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/editText_ara_fiyat_min"
+                android:hint="Minimum Fiyat"
+                android:layout_alignTop="@+id/checkBox_fiyat"
+                android:layout_alignLeft="@+id/spinner_ara_model"
+                android:layout_alignStart="@+id/spinner_ara_model"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="right|top" />
+
+        </FrameLayout>
+    </TableRow>
+
+
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="ARA"
+    android:id="@+id/btn_ara"
+        android:layout_marginTop="15dp"
+        android:textSize="23dp"
+        android:background="@drawable/white_border"
+        android:backgroundTint="#000"
+        android:layout_below="@+id/editText_ara_fiyat_max"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="23dp"
+        android:background="@drawable/white_border"
+        android:backgroundTint="#000"
+        android:text="TÜM KAYITLAR"
+        android:id="@+id/btn_tumKayitlar"
+        android:layout_column="0" />
+
+</TableLayout>

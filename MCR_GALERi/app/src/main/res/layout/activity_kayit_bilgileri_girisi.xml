@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:gravity="center_horizontal"
+    android:background="@drawable/arka_plan_2">
+
+    <TableRow android:gravity="center" android:layout_marginTop="5dp">
+<FrameLayout android:layout_width="330dp">
+
+    <Spinner
+        android:layout_width="155dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:id="@+id/spinner_comboMarka"
+        android:background="@drawable/white_border"
+        android:backgroundTint="#000"
+        android:layout_gravity="left|center_vertical"
+        android:spinnerMode="dialog" />
+
+    <Spinner
+        android:layout_marginLeft="70dp"
+        android:layout_width="155dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:backgroundTint="#000"
+        android:entries="@array/Markalar"
+        android:id="@+id/spinner_comboModel"
+        android:background="@drawable/white_border"
+        android:layout_gravity="right|center_vertical"
+        android:spinnerMode="dialog" />
+</FrameLayout>
+    </TableRow>
+
+    <TableRow android:gravity="center" android:layout_marginTop="10dp">
+        <FrameLayout android:layout_width="330dp">
+
+            <Spinner
+                android:layout_width="155dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:backgroundTint="#000"
+                android:id="@+id/spinner_comboYil"
+                android:background="@drawable/white_border"
+                android:layout_gravity="left|center_vertical"
+                android:spinnerMode="dialog" />
+
+            <EditText
+                android:hint="Fiyat"
+                android:gravity="center"
+                android:layout_width="155dp"
+                android:layout_height="50dp"
+                android:textColor="#900"
+                android:textColorHint="#900"
+                android:backgroundTint="#000"
+                android:background="@drawable/white_border"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/editText_Fiyat"
+                android:layout_gravity="right|center_vertical" />
+
+        </FrameLayout>
+    </TableRow>
+
+    <TableRow android:gravity="center" android:layout_marginTop="10dp">
+        <FrameLayout android:layout_width="330dp">
+
+            <Spinner
+                android:layout_width="155dp"
+                android:layout_height="50dp"
+                android:id="@+id/spinner_combo_degisen"
+                android:entries="@array/degisen_parca"
+                android:background="@drawable/white_border"
+                android:gravity="center"
+
+                android:layout_gravity="left|center_vertical"
+                android:spinnerMode="dropdown" />
+
+            <Spinner
+                android:layout_width="155dp"
+                android:layout_height="50dp"
+                android:id="@+id/spinner_combo_boyali"
+                android:entries="@array/boyali_parca"
+                android:gravity="center"
+                android:background="@drawable/white_border"
+
+                android:layout_gravity="right|center_vertical"
+                android:spinnerMode="dropdown" />
+
+        </FrameLayout>
+    </TableRow>
+
+    <TableRow android:gravity="center" android:layout_marginTop="10dp">
+        <FrameLayout android:layout_width="330dp">
+
+            <Button
+                android:layout_width="45dp"
+                android:layout_height="50dp"
+                android:background="@drawable/book"
+                android:id="@+id/btn_rehber"
+                android:hint="Rehber"
+                android:textSize="10dp"
+                android:textColorHint="#fff"
+                android:layout_gravity="left|center_vertical" />
+
+            <EditText
+                android:hint="Ad Soyad"
+                android:layout_width="110dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:textColor="#900"
+                android:textColorHint="#900"
+                android:backgroundTint="#900"
+                android:layout_marginLeft="-65dp"
+                android:inputType="textPersonName"
+                android:background="@drawable/white_border"
+                android:ems="10"
+                android:id="@+id/editText_adSoyad"
+                android:layout_gravity="center" />
+
+            <EditText
+                android:hint="Numara"
+                android:layout_width="155dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:inputType="phone"
+                android:textColor="#900"
+                android:textColorHint="#900"
+                android:backgroundTint="#900"
+                android:background="@drawable/white_border"
+                android:ems="10"
+                android:id="@+id/editText_numara"
+                android:layout_gravity="right|center_vertical" />
+        </FrameLayout>
+    </TableRow>
+
+    <TableRow android:gravity="center" android:layout_marginTop="10dp">
+        <FrameLayout android:layout_width="330dp">
+
+            <ImageView
+                android:layout_width="155dp"
+                android:layout_height="155dp"
+                android:id="@+id/imageView_resim"
+                android:layout_gravity="left|center_vertical" />
+
+            <EditText
+                android:hint="Açıklama"
+                android:gravity="center_horizontal"
+                android:textColor="#900"
+                android:textColorHint="#900"
+                android:layout_width="155dp"
+                android:layout_height="155dp"
+                android:inputType="textMultiLine"
+                android:background="@drawable/border2"
+                android:backgroundTint="#900"
+                android:ems="10"
+                android:id="@+id/editText_aciklama"
+                android:layout_gravity="right|center_vertical" />
+
+        </FrameLayout>
+    </TableRow>
+
+    <TableRow android:gravity="center" android:layout_marginTop="10dp">
+        <FrameLayout android:layout_width="330dp">
+
+            <Button
+                android:layout_width="155dp"
+                android:layout_height="50dp"
+                android:text="TEMİZLE"
+                android:id="@+id/btn_temizle"
+                android:textSize="23dp"
+                android:background="@drawable/white_border"
+                android:backgroundTint="#000"
+                android:layout_gravity="left|center_vertical" />
+
+            <Button
+                android:layout_width="155dp"
+                android:layout_height="50dp"
+                android:text="KAYDET"
+                android:textSize="23dp"
+                android:background="@drawable/white_border"
+                android:backgroundTint="#000"
+                android:id="@+id/btn_kaydet"
+                android:layout_gravity="right|center_vertical" />
+        </FrameLayout>
+    </TableRow>
+
+</TableLayout>

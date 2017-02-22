@@ -1,0 +1,12 @@
+c:\users\m.ac\documents\visual studio 2010\Projects\M.AC CAR\M.AC CAR\Bin\Debug\ApplicationIcon.png
+c:\users\m.ac\documents\visual studio 2010\Projects\M.AC CAR\M.AC CAR\Bin\Debug\Background.png
+c:\users\m.ac\documents\visual studio 2010\Projects\M.AC CAR\M.AC CAR\Bin\Debug\M.AC CAR.dll
+c:\users\m.ac\documents\visual studio 2010\Projects\M.AC CAR\M.AC CAR\Bin\Debug\M.AC CAR.pdb
+c:\users\m.ac\documents\visual studio 2010\Projects\M.AC CAR\M.AC CAR\Bin\Debug\AppManifest.xaml
+c:\users\m.ac\documents\visual studio 2010\Projects\M.AC CAR\M.AC CAR\Bin\Debug\M.AC_CAR.xap
+c:\users\m.ac\documents\visual studio 2010\Projects\M.AC CAR\M.AC CAR\obj\Debug\App.g.i.cs
+c:\users\m.ac\documents\visual studio 2010\Projects\M.AC CAR\M.AC CAR\obj\Debug\MainPage.g.i.cs
+c:\users\m.ac\documents\visual studio 2010\Projects\M.AC CAR\M.AC CAR\obj\Debug\M.AC CAR.g.resources
+c:\users\m.ac\documents\visual studio 2010\Projects\M.AC CAR\M.AC CAR\obj\Debug\M.AC CAR.dll
+c:\users\m.ac\documents\visual studio 2010\Projects\M.AC CAR\M.AC CAR\obj\Debug\M.AC CAR.pdb
+c:\users\m.ac\documents\visual studio 2010\Projects\M.AC CAR\M.AC CAR\obj\Debug\XapCacheFile.xml

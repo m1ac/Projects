@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="Markalar">
+        <item>Alfa Romeo</item>
+        <item>Aston Martin</item>
+        <item>Audi</item>
+        <item>Bentley</item>
+        <item>BMW</item>
+        <item>Chery</item>
+        <item>Chevrolet</item>
+        <item>Chrysler</item>
+        <item>Citroen</item>
+        <item>Dacia</item>
+        <item>Daewoo</item>
+        <item>Daihatsu</item>
+        <item>Dodge</item>
+        <item>Eagle</item>
+        <item>Fiat</item>
+        <item>Ford</item>
+        <item>Honda</item>
+        <item>Hyundai</item>
+        <item>Infiniti</item>
+        <item>Isuzu</item>
+        <item>Kia</item>
+        <item>Lada</item>
+        <item>Mazda</item>
+        <item>Mercedes</item>
+        <item>Mitsubishi</item>
+        <item>Nissan</item>
+        <item>Opel</item>
+        <item>Peugeot</item>
+        <item>Pontiac</item>
+        <item>Proton</item>
+        <item>Renault</item>
+        <item>Rover</item>
+        <item>Seat</item>
+        <item>Skoda</item>
+        <item>Subaru</item>
+        <item>Suzuki</item>
+        <item>Tata</item>
+        <item>Tofaş</item>
+        <item>Toyota</item>
+        <item>Volkswagen</item>
+        <item>Volvo</item>
+    </array>
+
+    <array name="boyali_parca">
+        <item>Boyalı Parça Yok</item>
+        <item>1 parça boyalı</item>
+        <item>2 parça boyalı</item>
+        <item>3 parça boyalı</item>
+        <item>4 parça boyalı</item>
+        <item>5 parça boyalı</item>
+        <item>Bel altı boya</item>
+        <item>Tavan boya</item>
+        <item>Komple boyalı</item>
+    </array>
+    <array name="degisen_parca">
+        <item>Değişen Yok</item>
+        <item>1 parça değişen</item>
+        <item>2 parça değişen</item>
+        <item>3 parça değişen</item>
+        <item>4 parça değişen</item>
+        <item>5 parça değişen</item>
+    </array>
+</resources>
